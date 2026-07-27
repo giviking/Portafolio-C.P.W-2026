@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Horario de clases del sitio-demo">
+    <meta name="keywords" content="horario, clases, sitio-demo">
+    <meta name="author" content="Guillermo">
+    <title>Horario | sitio-demo</title>
+
+</head>
+<body>
+    <h1>Horario y Guia del Curso</h1>
+    
+    <!-- Lista Desordenada -->
+     <h2>Materiales del curso con lista desordenada</h2>
+
+     <ul type="square">
+        <!-- Type de los ul: square, circle, disc -->
+        <li>Visual Studio Code</li>
+        <li>Cuenta de GitHub</li>
+        <li>Cuaderno de Bitacora</li>
+        <li>Computadora con conexion a internet</li>
+     </ul>
+     <!-- Emmet: ul>li*3 -->
+
+     <hr><br>
+     <!--Lista Ordenada-->
+     <h2>Como entregar una pr&aacute;ctica con lista ordenada</h2> 
+
+     <!-- Emmet: ol>li*8 -->
+     <ol reversed>
+        <li>Traer los cambios con git pull</li>
+        <li>Crear la rama para la pr&aacute;ctica con git switch -c "nombre-de-la-rama"</li>
+        <li>Trabajar y hacer commits at&oacute;micos</li>
+        <li>Subir la rama con git push</li>
+        <li>Abrir un pull request en GitHub</li>
+        <li>Revisar y fusionar el pull request</li>
+        <li>Volverse a la rama principal (main)</li>
+        <li>Eliminar la rama de la pr&aacute;ctica con git branch -d "nombre-de-la-rama"</li>
+     </ol>
+     <hr><br>
+
+     <!--Algunos atributos probados en vivo-->
+     <!-- <ol reversed, type="A", type="1", type="I", type="a" start="A">-->
+
+    <!-- Lista de Descriptivas: pares de termini y descripcion -->
+     <h2>Glosario Git: Con listas descriptivas</h2>
+     <!--Emmet: dl>(dt+dd)*3)-->
+     <dl>
+        <dt>Commit</dt>
+        <dd>Instant&aacute;nea permanente del proyecto en un momento dado</dd>
+        <dt>Rama</dt>
+        <dd>L&iacute;nea de trabajo paralela que no afecta a main</dd>
+        <dt>Pull</dt>
+        <dd>Solicitud de revisi&oacute;n para incorporar una rama</dd>
+     </dl>
+
+     <!-- Listas anidadas. Usada en menus y submenus -->
+    <h2>Temario de la unidad: con lista anidada</h2>
+    <!-- Emmet: ul>li>ul>li*2*3 -->
+    <ul>
+        <li>Estructura del Documento Web
+            <ul>
+                <li>DOCTYPE Y HTML</li>
+                <li>Head y Metadatos</li>
+            </ul>
+        </li>
+        
+        <li>Contenido
+            <ul>
+                <li>Texto y enlaces</li>
+                <li>Listas y tablas</li>
+            </ul>
+        </li>
+
+    </ul>
+
+</body>
+</html>
