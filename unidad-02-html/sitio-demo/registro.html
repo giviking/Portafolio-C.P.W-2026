@@ -46,7 +46,7 @@
             <legend>Detalles de Matr&iacute;cula</legend>
             <p>
                 <label for="telefono">Tel&eacute;fono:</label>
-                <input type="tel" id="telefono" name="telefono"><br><br>
+                <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{8}" title="Ingrese un numero de telefono valido de 8"><br><br>
             </p>
 
             <p>
@@ -56,7 +56,7 @@
 
             <p>
                 <label for="edad">Edad:</label>
-                <input type="number" id="edad" name="edad"><br><br>
+                <input type="number" id="edad" name="edad" min="15" max="80" step="1"><br><br>
             </p>
         </fieldset>
 
@@ -80,7 +80,7 @@
 
         <p>
             <label for="comentarios">Comentarios</label><br>
-            <textarea id="comentarios" name="comentarios"  rows="4"></textarea><br><br>
+            <textarea id="comentarios" name="comentarios"  rows="4" cols="50" maxlength="200"></textarea><br><br>
         </p>
     </main>
     <footer>
