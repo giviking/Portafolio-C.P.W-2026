@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Formulario de registro del sitio-demo">
+    <meta name="keywords" content="registro, Formulario, sitio-demo">
+    <meta name="author" content="Guillermo">
+    <title>Formulario | Registro</title>
 </head>
 <body>
     <header>
@@ -21,7 +24,65 @@
         </nav>
         
     </header>
+    <main>
+        <h2>Formulario de matricula</h2>
+        <form action="#" method="post">
+            <!-- FORM: contenedor del formulario. Action: es a donde se envia el formulario method: es el metododo de envio. POST: envio de datos por el cuerpo de la solicitud -->
+             <fieldset> <!--Contenedor de os elementos del formulario-->
+                <legend>Informacion Personal</legend> <!--Legend: titulo del fieldset-->
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                </p>
 
+                <p>
+                    <label for="correo">Correo electronico:</label>
+                    <input type="email" id="correo" name="correo" required><br><br>
+                </p>
+                <button type="submit">Enviar matricula</button>
+             </fieldset>
+        </form>
+        <fieldset>
+            <legend>Detalles de Matr&iacute;cula</legend>
+            <p>
+                <label for="telefono">Tel&eacute;fono:</label>
+                <input type="tel" id="telefono" name="telefono"><br><br>
+            </p>
+
+            <p>
+                <label for="fecha">Fecha de inicio:</label>
+                <input type="date" id="fecha" name="fecha"><br><br>
+            </p>
+
+            <p>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad"><br><br>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Modalidad</legend>
+            <input type="radio" id="presencial" name="modalidad" value="presencial"> <!--Si cambia nombre al name en diferentes, se puede seleccionar varios-->
+            <label for="presencial">Presencial</label><br>
+            <input type="radio" id="virtual" name="modalidad" value="virtual">
+            <label for="virtual">Virtual</label><br>
+            <input type="radio" id="mixta" name="modalidad" value="mixta">
+            <label for="mixta">Mixta</label><br><br>
+        </fieldset>
+        <p>
+            <label for="horario">Horario preferido</label><br>
+            <select name="horario" id="horario">
+                <option value="manana">Manana</option>
+                <option value="tarde">Tarde</option>
+                <option value="noche">Noche</option>
+            </select><br><br>
+        </p>
+
+        <p>
+            <label for="comentarios">Comentarios</label><br>
+            <textarea id="comentarios" name="comentarios"  rows="4"></textarea><br><br>
+        </p>
+    </main>
     <footer>
         <!--Footer: pie, creditos, contacto, derechos-->
         <p>® 2026 INA. Programa Desarrollo de Paginas Web. Todos los derechos reservados.</p>
