@@ -57,13 +57,13 @@ Portafolio-Codificación de Páginas Web/
 
 | Sesión | Tema                           | Qué aprendí                                                            |      Trabajo      |             Captura             |
 | :----: | :----------------------------- | :--------------------------------------------------------------------- | :---------------: | :-----------------------------: |
-|  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos git para trabajo colaborativo                   | [ver](unidad-02/) | [ver](recursos/img-recorte.png) |
-|  S03   | Estructura del documento HTML5 |                                                                        | [ver](unidad-02/) |        [ver](recursos/)         |
-|  S04   | Texto, enlaces y anclas        | Aprendimos a agregar el Favicon y los metadatos de una pagina personal | [ver](unidad-02/) |        [ver](recursos/img-recorte.png)         |
+|  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos git para trabajo colaborativo                   | [ver](unidad-02-html/) | [ver](recursos/img-recorte.png) |
+|  S03   | Estructura del documento HTML5 |                                                                        | [ver](unidad-02-html/) |        [ver](recursos/)         |
+|  S04   | Texto, enlaces y anclas        | Aprendimos a agregar el Favicon y los metadatos de una pagina personal | [ver](unidad-02-html/) |        [ver](recursos/img-recorte.png)         |
 |  S05   | Listas y tablas                | Aprendi a trabajar los 3 tipos de listas con sus tipos y estilos. Tambien la parte de tablas semanticas| [ver](unidad-02/) |        [ver](unidad-02-html/sitio-demo/recursos/s05listasytablas.png)         |
 |  S06   | Formularios y semántica        | Vimos etiquetas semanticas y formularios con validacion local    | [ver](unidad-02-html/sitio-demo/registro.html) |        [ver](recursos/s6capturaevidenciasemantica.png)         |
-|  S07   | Multimedia                     | Etiquetas, controles de audio y video, formatos, portada y subtitulos| [ver](unidad-02/) |        [ver](recursos/s07multimedia.png)         |
-|  S08   | SVG y repaso                   | SVG-vectorial desde HTML                                               | [ver](unidad-02/sitio-demo/insignia.html) |        [ver](recursos/S08_VectorialAHTML.png)         |
+|  S07   | Multimedia                     | Etiquetas, controles de audio y video, formatos, portada y subtitulos| [ver](unidad-02-html/) |        [ver](recursos/s07multimedia.png)         |
+|  S08   | SVG y repaso                   | SVG-vectorial desde HTML                                               | [ver](unidad-02-html/sitio-demo/insignia.html) |        [ver](recursos/S08_VectorialAHTML.png)         |
 
 </details>
 
