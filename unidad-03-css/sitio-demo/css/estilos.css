@@ -1,4 +1,13 @@
 /* css/estilos.css */
+/* Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /*esta regla elimina los márgenes y el relleno predeterminados de todos los elementos y
+establece el modelo de caja para incluir el relleno y el borde en el ancho y alto del
+elemento*/
 body {
     font-family: Arial, sans-serif;
     color: mediumorchid;
