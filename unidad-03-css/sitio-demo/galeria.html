@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guillermo" />
+    <meta name="description" content="Imagen de la galeria con contenido relacionado con HTML5" />
+    <meta name="keywords" content="HTML, estandar vivo, formatos, W3C, imagenes de laboratorio" />
+    <title>Galeria | Imagenes</title>
+    <link rel="icon" href="recursos/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- CABECERA (Sesión 6) -->
+    <header id="inicio">
+    <h1>Galeria de Imágenes</h1>
+    <p>Sitio de demostración del módulo <abbr title="Código del módulo">CSTI12002</abbr>.</p>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="articulo.html">Artículo</a></li>
+        <li><a href="horario.html">Horario</a></li>
+        <li><a href="registro.html">Registro</a></li>
+        <li><a href="galeria.html">Galeria</a></li> 
+        <li><a href="insignia.html">Insignia</a></li> 
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">  
+
+    <article>
+    <h2>Galeria</h2>
+
+    <!--Imagen y sus atributos-->
+        <img src="recursos/s07-lab01.jpg" alt="Imagen de la galeria de un laboratorio de informatica" width="600" height="400" /> 
+
+        <!--FIGURE: AGRUPA UN CONTENIDO CON UNA EXPLICACION-->
+        <figure>
+        <img src="recursos/s07-lab02.jpg" alt="Imagen de la galeria de un laboratorio de informatica" width="800" height="500" />
+        <figcaption>Figura 1: Imagen de la galeria de un laboratorio de informatica</figcaption>
+        </figure>
+
+        <!-- VARIOS FORMATOS: el navegador elige uno -->
+        <figure>            
+            <picture>
+                <source srcset="recursos/s07-lab01.webp" type="image/webp" />
+                <source srcset="recursos/s07-lab02.jpg" type="image/jpeg" />
+                <img src="recursos/s07-lab01.jpg" alt="Imagen de la galeria de un laboratorio de informatica" width="800" height="500" />
+            </picture>
+            <figcaption>Figura 2: Imagen de la galeria de un laboratorio de informatica</figcaption>
+        </figure>         
+    
+
+    <!--AUDIO-->
+    <section id="audio">
+        <h3>Audio de Bienvenida</h3>
+
+        <audio controls>
+            <source src="recursos/End of Line (From _TRON_ Legacy__Score) 0.mp3" type="audio/mpeg" />
+            <source src="recursos/End-of-Line-_From-_TRON_-Legacy__Score_-0.ogg" type="audio/ogg" />
+            <p>Tu navegador no soporta el elemento de audio.</p>
+            <audio href="recursos/End of Line (From _TRON_ Legacy__Score) 0.mp3">Descargar el archivo de audio</audio>
+        </audio>
+    </section>
+
+    <!--VIDEO-->
+    <section id="video">
+        <h3>Mini tutorial</h3>
+
+        <video controls width="800" height="500" poster="recursos/poster-tron-legacy.jpg" preload="metadata">            
+            <source src="recursos/video2.mp4" type="video/mp4" />
+            <source src="recursos/video2.webm" type="video/webm" />
+            <track src="recursos/video2.vtt" kind="subtitles" srclang="es" label="Español" />
+
+            <p>Tu navegador no soporta el elemento de video.</p>
+            <video href="recursos/video2.mp4">Descargar el archivo de video</video>
+        </video>
+    </section>
+
+</article>  
+    <p><a href="#inicio">Volver a la página principal</a></p>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <h2>Contacto</h2>
+    <address>
+      Instituto Nacional de Aprendizaje<br>
+      Núcleo Comercio y Servicios<br>
+      Correo: <a href="mailto:giocoto@ejemplo.com">giocoto@ejemplo.com</a>
+    </address>
+    <p>
+      Recurso externo:
+      <a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener">
+        Documentación MDN Web Docs
+      </a>
+    </p>
+    <p><small>&copy; 2026 &middot; INA &middot; Todos los derechos reservados</small></p>
+  </footer>
+    
+</body>
+</html>
