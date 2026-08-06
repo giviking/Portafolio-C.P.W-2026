@@ -10,11 +10,18 @@ establece el modelo de caja para incluir el relleno y el borde en el ancho y alt
 elemento*/
 body {
     font-family: Arial, sans-serif;
-    color: mediumorchid;
-    background-color: #fbf8f8;
+    color: white;
+    background-color: #0576d4;
 } /* esta regla define la fuente y el color del texto en el cuerpo del documento */
 h1 {
     color: #1f4e79;
     font-size: 32px;
     text-align: center;
+}
+
+hr {
+    border: 14;
+    height: 14px;
+    background-color: 4px solid blue;
+
 }
