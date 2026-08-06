@@ -55,15 +55,15 @@ Portafolio-Codificación de Páginas Web/
 <details markdown="1">
 <summary><b>Unidad 2 · Etiquetas y atributos HTML</b> (sesiones 2 a 8)</summary>
 
-| Sesión | Tema                           | Qué aprendí                                                            |      Trabajo      |             Captura             |
-| :----: | :----------------------------- | :--------------------------------------------------------------------- | :---------------: | :-----------------------------: |
-|  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos git para trabajo colaborativo                   | [ver](unidad-02-html/) | [ver](recursos/img-recorte.png) |
-|  S03   | Estructura del documento HTML5 |                                                                        | [ver](unidad-02-html/) |        [ver](recursos/)         |
-|  S04   | Texto, enlaces y anclas        | Aprendimos a agregar el Favicon y los metadatos de una pagina personal | [ver](unidad-02-html/) |        [ver](recursos/img-recorte.png)         |
-|  S05   | Listas y tablas                | Aprendi a trabajar los 3 tipos de listas con sus tipos y estilos. Tambien la parte de tablas semanticas| [ver](unidad-02/) |        [ver](unidad-02-html/sitio-demo/recursos/s05listasytablas.png)         |
-|  S06   | Formularios y semántica        | Vimos etiquetas semanticas y formularios con validacion local    | [ver](unidad-02-html/sitio-demo/registro.html) |        [ver](recursos/s6capturaevidenciasemantica.png)         |
-|  S07   | Multimedia                     | Etiquetas, controles de audio y video, formatos, portada y subtitulos| [ver](unidad-02-html/) |        [ver](recursos/s07multimedia.png)         |
-|  S08   | SVG y repaso                   | SVG-vectorial desde HTML                                               | [ver](unidad-02-html/sitio-demo/insignia.html) |        [ver](recursos/S08_VectorialAHTML.png)         |
+| Sesión | Tema                           | Qué aprendí                                                                                             |                    Trabajo                     |                            Captura                             |
+| :----: | :----------------------------- | :------------------------------------------------------------------------------------------------------ | :--------------------------------------------: | :------------------------------------------------------------: |
+|  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos git para trabajo colaborativo                                                    |             [ver](unidad-02-html/)             |                [ver](recursos/img-recorte.png)                 |
+|  S03   | Estructura del documento HTML5 |                                                                                                         |             [ver](unidad-02-html/)             |                        [ver](recursos/)                        |
+|  S04   | Texto, enlaces y anclas        | Aprendimos a agregar el Favicon y los metadatos de una pagina personal                                  |             [ver](unidad-02-html/)             |                [ver](recursos/img-recorte.png)                 |
+|  S05   | Listas y tablas                | Aprendi a trabajar los 3 tipos de listas con sus tipos y estilos. Tambien la parte de tablas semanticas |               [ver](unidad-02/)                | [ver](unidad-02-html/sitio-demo/recursos/s05listasytablas.png) |
+|  S06   | Formularios y semántica        | Vimos etiquetas semanticas y formularios con validacion local                                           | [ver](unidad-02-html/sitio-demo/registro.html) |        [ver](recursos/s6capturaevidenciasemantica.png)         |
+|  S07   | Multimedia                     | Etiquetas, controles de audio y video, formatos, portada y subtitulos                                   |             [ver](unidad-02-html/)             |               [ver](recursos/s07multimedia.png)                |
+|  S08   | SVG y repaso                   | SVG-vectorial desde HTML                                                                                | [ver](unidad-02-html/sitio-demo/insignia.html) |             [ver](recursos/S08_VectorialAHTML.png)             |
 
 <!--
   ─────────────────────────────────────────────────────────────────────
@@ -84,21 +84,21 @@ Portafolio-Codificación de Páginas Web/
 Proyecto propio construido de forma autónoma.
 **Tema del sitio:** _(escribir aquí el tema elegido)_
 
-| Página | Qué contiene | Sesiones aplicadas | Ver | Validación |
-|:-------|:-------------|:------------------:|:---:|:----------:|
-| `index.html` | Estructura semántica, metadatos, texto jerarquizado, citas, enlaces y anclas | S03 · S04 · S06 | [ver](unidad-02-html/sitio-personal/index.html) | [ver](recursos/sp-validacion-index.png) |
-| `listas.html` | Las tres listas, lista anidada y tabla con celdas combinadas | S05 | [ver](unidad-02-html/sitio-personal/listas.html) | [ver](recursos/sp-validacion-listas.png) |
-| `contacto.html` | Formulario con ocho campos y validación de HTML | S06 | [ver](unidad-02-html/sitio-personal/contacto.html) | [ver](recursos/sp-validacion-contacto.png) |
-| `galeria.html` | Imágenes, audio, video con subtítulos y gráficas SVG | S07 · S08 | [ver](unidad-02-html/sitio-personal/galeria.html) | [ver](recursos/sp-validacion-galeria.png) |
+| Página          | Qué contiene                                                                 | Sesiones aplicadas |                        Ver                         |                 Validación                 |
+| :-------------- | :--------------------------------------------------------------------------- | :----------------: | :------------------------------------------------: | :----------------------------------------: |
+| `index.html`    | Estructura semántica, metadatos, texto jerarquizado, citas, enlaces y anclas |  S03 · S04 · S06   |  [ver](unidad-02-html/sitio-personal/index.html)   |  [ver](recursos/sp-validacion-index.png)   |
+| `listas.html`   | Las tres listas, lista anidada y tabla con celdas combinadas                 |        S05         |  [ver](unidad-02-html/sitio-personal/listas.html)  |  [ver](recursos/sp-validacion-listas.png)  |
+| `contacto.html` | Formulario con ocho campos y validación de HTML                              |        S06         | [ver](unidad-02-html/sitio-personal/contacto.html) | [ver](recursos/sp-validacion-contacto.png) |
+| `galeria.html`  | Imágenes, audio, video con subtítulos y gráficas SVG                         |     S07 · S08      | [ver](unidad-02-html/sitio-personal/galeria.html)  | [ver](recursos/sp-validacion-galeria.png)  |
 
 **Decisiones que tomé**
 
-| Decisión | Qué elegí | Por qué |
-|:---------|:----------|:--------|
-| Tema del sitio | | |
-| Atributo de la lista ordenada | | |
-| Formatos de imagen usados | | |
-| Formas del gráfico SVG | | |
+| Decisión                      | Qué elegí | Por qué |
+| :---------------------------- | :-------- | :------ |
+| Tema del sitio                |           |         |
+| Atributo de la lista ordenada |           |         |
+| Formatos de imagen usados     |           |         |
+| Formas del gráfico SVG        |           |         |
 
 **Cómo se ve**
 
@@ -108,7 +108,7 @@ Proyecto propio construido de forma autónoma.
 
 <div align="center" markdown="1">
 
-*Portada del sitio personal al cerrar la Unidad 2.*
+_Portada del sitio personal al cerrar la Unidad 2._
 
 </div>
 
@@ -120,18 +120,18 @@ Proyecto propio construido de forma autónoma.
 <details markdown="1">
 <summary><b>Unidad 3 · Codificación de hojas de estilo</b> (sesiones 11 a 20)</summary>
 
-| Sesión | Tema                       | Qué aprendí |      Trabajo      |     Captura      |
-| :----: | :------------------------- | :---------- | :---------------: | :--------------: |
-|  S11   | Introducción a CSS         |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S12   | Selectores y pseudo-clases |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S13   | Tipografía y color         |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S14   | Modelo de cajas            |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S15   | Display y posicionamiento  |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S16   | Flexbox                    |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S17   | CSS Grid                   |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S18   | Componentes estilizados    |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S19   | Animaciones y filtros      |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S20   | SCSS y repaso              |             | [ver](unidad-03/) | [ver](recursos/) |
+| Sesión | Tema                       | Qué aprendí                                       |                       Trabajo                       |            Captura            |
+| :----: | :------------------------- | :------------------------------------------------ | :-------------------------------------------------: | :---------------------------: |
+|  S11   | Introducción a CSS         | Introduccion a CSS, sintaxis, estilo y validacion | [ver](unidad-03-css/sitio-personal/css/estilos.css) | [ver](recursos/primercss.png) |
+|  S12   | Selectores y pseudo-clases |                                                   |                [ver](unidad-03-css/)                |       [ver](recursos/)        |
+|  S13   | Tipografía y color         |                                                   |                [ver](unidad-03-css/)                |       [ver](recursos/)        |
+|  S14   | Modelo de cajas            |                                                   |                [ver](unidad-03-css/)                |       [ver](recursos/)        |
+|  S15   | Display y posicionamiento  |                                                   |                [ver](unidad-03-css/)                |       [ver](recursos/)        |
+|  S16   | Flexbox                    |                                                   |                [ver](unidad-03-css/)                |       [ver](recursos/)        |
+|  S17   | CSS Grid                   |                                                   |                [ver](unidad-03-css/)                |       [ver](recursos/)        |
+|  S18   | Componentes estilizados    |                                                   |                [ver](unidad-03-css/)                |       [ver](recursos/)        |
+|  S19   | Animaciones y filtros      |                                                   |                [ver](unidad-03-css/)                |       [ver](recursos/)        |
+|  S20   | SCSS y repaso              |                                                   |                [ver](unidad-03-css/)                |       [ver](recursos/)        |
 
 </details>
 
