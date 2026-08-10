@@ -84,6 +84,9 @@ header nav a {
     font-size: 0.9rem;
     text-decoration: none;
 }
+header ul li {
+    list-style-type: none;
+}
 
 /*Aplicar Estilos a Clases Viernes 7 Agosto 2026*/
 .destacado {

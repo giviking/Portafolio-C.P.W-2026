@@ -1,6 +1,10 @@
 /* css/estilos.css */
 /* Reset básico */
-
+/*100% del tamaño que el usuario configuró
+ Por omisión son 16px*/
+ html {
+    font-size: 100%;
+ }
 * {
     margin: 0;
     padding: 0;
@@ -9,14 +13,17 @@
 establece el modelo de caja para incluir el relleno y el borde en el ancho y alto del
 elemento*/
 body {
+    font-size: 1rem;
+    line-height: 1.6;
     font-family: Arial, sans-serif;
     color: white;
     background-color: #0576d4;
 } /* esta regla define la fuente y el color del texto en el cuerpo del documento */
 h1 {
-    color: #1f4e79;
-    font-size: 32px;
+    color: #e5e8ec;  /*Deje este como el codigo original*/ 
+    font-size: 50px;
     text-align: center;
+    text-justify: inter-cluster;
 }
 
 /*Aplicar Estilos a Clases*/
@@ -27,6 +34,10 @@ h1 {
 
 /* Aplicar estilos a identificadores o IDs */
 #inicio {
+    background-image: url(../recursos/snkfondo.jpg);
+    background-size: 20%;
+    background-position: right;
+    background-repeat: repeat-y;
     background-color: #1f4e79;
     padding: 30px;
 }
