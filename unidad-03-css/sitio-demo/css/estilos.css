@@ -1,6 +1,10 @@
 /* css/estilos.css */
 /* Reset básico */
-
+/*100% del tamaño que el usuario configuró
+ Por omisión son 16px, */
+ html{
+    font-size: 100%;
+ }
 * {
     margin: 0;
     padding: 0;
@@ -9,14 +13,79 @@
 establece el modelo de caja para incluir el relleno y el borde en el ancho y alto del
 elemento*/
 body {
+    font-size: 1rem;
+    line-height: 1.6;
     font-family: Arial, sans-serif;
-    color: mediumorchid;
-    background-color: #fbf8f8;
+    color: #333;
+    background-color: #fcfcfc;
 } /* esta regla define la fuente y el color del texto en el cuerpo del documento */
 h1 {
-    color: #1f4e79;
-    font-size: 32px;
+    color: #bbc1c6;
     text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+header {
+    background-color: #1f4e79;
+    color: white;
+}
+
+footer {
+    background-color: #dce6f1;
+    padding: 20px;
+    margin-top: 30px;
+}
+.portada-texto {
+    background-color: rgb(0, 0, 40, 0.35);
+    padding: 24px;
+    border-radius: 8px;
+}
+
+
+
+h2, h3 {
+    color: #1f7940;
+}
+
+main p {
+    max-width: 70ch;   /*Es la cantidad maxima de caracteres por línea*/
+} /*ch es el ancho del caracter cero de la fuente en uso. El valor 70 marca el rango
+   de lectura cómoda por línea o renglón. Más larga, la vista se pierde al cambiar de línea*/
+main a {
+    text-decoration: none;
+    border-bottom: 1px solid #1f4e79;
+}
+
+blockquote p {
+    font-style: italic;
+    color: #555;
+}
+
+   /* Transformación y espacio */
+
+header nav a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+header ul li {
+    list-style-type: none;
 }
 
 /*Aplicar Estilos a Clases Viernes 7 Agosto 2026*/
@@ -27,7 +96,10 @@ h1 {
 
 /* Aplicar estilos a identificadores o IDs */
 #inicio {
-    background-color: #1f4e79;
+    background-image: url(../recursos/fondo1.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 30px;
 }
 
