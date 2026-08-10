@@ -1,6 +1,10 @@
 /* css/estilos.css */
 /* Reset básico */
-
+/*100% del tamaño que el usuario configuró
+ Por omisión son 16px, */
+ html{
+    font-size: 100%;
+ }
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +13,8 @@
 establece el modelo de caja para incluir el relleno y el borde en el ancho y alto del
 elemento*/
 body {
+    font-size: 1rem;
+    line-height: 1.6;
     font-family: Arial, sans-serif;
     color: mediumorchid;
     background-color: #fbf8f8;
