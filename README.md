@@ -124,7 +124,7 @@ _Portada del sitio personal al cerrar la Unidad 2._
 | :----: | :------------------------- | :----------------------------------------------------------------------- | :-------------------------------------------------: | :--------------------------------: |
 |  S11   | Introducción a CSS         | Introduccion a CSS, sintaxis, estilo y validacion                        | [ver](unidad-03-css/sitio-personal/css/estilos.css) |   [ver](recursos/primercss.png)    |
 |  S12   | Selectores y pseudo-clases | Selectores, pseudo-clases, pseudo-elemento y introduccio a la tipografia |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   | [ver](recursos/S12.Selectores.png) |
-|  S13   | Tipografía y color         |                                                                          |                [ver](unidad-03-css/)                |          [ver](recursos/)          |
+|  S13   | Tipografía y color         | Tipografia, fondos y colores                                             |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   | [ver](recursos/s13TipoYFondos.png) |
 |  S14   | Modelo de cajas            |                                                                          |                [ver](unidad-03-css/)                |          [ver](recursos/)          |
 |  S15   | Display y posicionamiento  |                                                                          |                [ver](unidad-03-css/)                |          [ver](recursos/)          |
 |  S16   | Flexbox                    |                                                                          |                [ver](unidad-03-css/)                |          [ver](recursos/)          |
