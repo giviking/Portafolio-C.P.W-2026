@@ -44,6 +44,24 @@ main p {
     max-width: 70ch;   /*Es la cantidad maxima de caracteres por línea*/
 } /*ch es el ancho del caracter cero de la fuente en uso. El valor 70 marca el rango
    de lectura cómoda por línea o renglón. Más larga, la vista se pierde al cambiar de línea*/
+main a {
+    text-decoration: none;
+    border-bottom: 1px solid #1f4e79;
+}
+
+blockquote p {
+    font-style: italic;
+    color: #555;
+}
+
+   /* Transformación y espacio */
+
+header nav a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
 
 /*Aplicar Estilos a Clases Viernes 7 Agosto 2026*/
 .destacado {
