@@ -20,10 +20,30 @@ body {
     background-color: #fbf8f8;
 } /* esta regla define la fuente y el color del texto en el cuerpo del documento */
 h1 {
-    color: #1f4e79;
-    font-size: 32px;
+    color: #bbc1c6;
     text-align: center;
 }
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+main p {
+    max-width: 70ch;   /*Es la cantidad maxima de caracteres por línea*/
+} /*ch es el ancho del caracter cero de la fuente en uso. El valor 70 marca el rango
+   de lectura cómoda por línea o renglón. Más larga, la vista se pierde al cambiar de línea*/
 
 /*Aplicar Estilos a Clases Viernes 7 Agosto 2026*/
 .destacado {
