@@ -106,12 +106,20 @@ header nav a {
     letter-spacing: 1px;
     font-size: 0.9rem;
     text-decoration: none;
-    display: inline-block;
     padding: 10px 15px;
+    margin-top: 15px;
 }
 
 header nav ul {
     list-style-type: none;  /*Quita las viñetas y el subrayado*/
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+header nav li {
+    display: inline-block;
 }
 
 /*Aplicar Estilos a Clases Viernes 7 Agosto 2026*/
@@ -238,4 +246,21 @@ main li {
     font-weight: 700;
     margin-bottom: 24px;
    }
+
+   /*Los 5 valores de position
+     static: valor por omision
+     relative: se desplaza desde su propia posición, conserva su propia
+     posición y los elementos vecinos no se mueven
+     absolute: Se ubica respecto al ancestro más cercano.
+     fixed: Se ubica respecto a la ventana. No se mueve al desplazarse.
+     sticky: Fluye normal hasta llegar a un umbral, y entonces se pega.*/
+
+     /*Patron para este caso*/
+     /*
+     .figura-destacada {
+        ----no se ha metido codigo----
+     }
+
+     */
+
 
