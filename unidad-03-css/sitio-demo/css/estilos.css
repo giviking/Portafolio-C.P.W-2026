@@ -19,6 +19,14 @@ body {
     color: #333;
     background-color: #fcfcfc;
 } /* esta regla define la fuente y el color del texto en el cuerpo del documento */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto; /*0: aplica a la parte vertical y horizontal
+                      el auto: reparte el espacio sobrante por igual a ambos lados
+                      lo centra en un elemento con ancho limitado*/
+}
+
 h1 {
     color: #bbc1c6;
     text-align: center;
@@ -60,6 +68,13 @@ footer {
 
 h2, h3 {
     color: #1f7940;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 16px;
 }
 
 main p {
@@ -158,4 +173,8 @@ th, td {
 }
 fieldset {
     padding: 16px;
+}
+
+section {
+    margin-bottom: 32px;
 }
