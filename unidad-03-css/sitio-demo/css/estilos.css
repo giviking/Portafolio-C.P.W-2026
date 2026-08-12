@@ -281,6 +281,16 @@ main li {
         position: relative; /*posiciona como padre y este no se mueve. Es referencia de hijos abasolutos*/
      }
 
+     .etiqueta {                 /*se mueve la palabra Destacado*/
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-color: #c55a11;
+        color: white;
+        border-radius: 4px;
+        font-size: 0.875rem;
+     }
+
      
 
 
