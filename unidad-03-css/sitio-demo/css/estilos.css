@@ -12,6 +12,13 @@
 } /*esta regla elimina los márgenes y el relleno predeterminados de todos los elementos y
 establece el modelo de caja para incluir el relleno y el borde en el ancho y alto del
 elemento*/
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+} /*aplica la parte vertical   me falta falta */
+
 body {
     font-size: 1rem;
     line-height: 1.6;
@@ -97,6 +104,7 @@ main a {
 blockquote p {
     font-style: italic;
     color: #555;
+    border-left: 4px solid #1f4e79;
 }
 
    /* Transformación y espacio */
@@ -247,6 +255,12 @@ main li {
     margin-bottom: 24px;
    }
 
+   figure {
+        border: 1px solid #dddddd;
+        border-radius: 6px;
+        padding: 12px;
+     }
+
    /*Los 5 valores de position
      static: valor por omision
      relative: se desplaza desde su propia posición, conserva su propia
@@ -262,5 +276,7 @@ main li {
      }
 
      */
+
+     
 
 
