@@ -277,6 +277,10 @@ main li {
 
      */
 
+     .figura-destacada {
+        position: relative; /*posiciona como padre y este no se mueve. Es referencia de hijos abasolutos*/
+     }
+
      
 
 
