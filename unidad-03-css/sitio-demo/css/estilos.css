@@ -148,6 +148,7 @@ header nav li {
     background-position: center;
     background-repeat: no-repeat;
     padding: 30px;
+    z-index: 100;  /*cuanto mayor es el numero mas al frente va a estar*/
 }
 
 /*
@@ -301,7 +302,16 @@ main li {
         color: white;
         border-radius: 4px;
         font-size: 0.875rem;
+        z-index: 10;    /*para que la imagen no se sobreponga encima del navegador */ 
      }
+
+     /* z-index SOLO FUNCIONA en elementos con positions declarados
+        si el es static no funciona.
+        escala de valores de z-index
+        10 para elementos posicionados dentro del contenido.
+        100 la cabacera fija.
+        1000 ventanas emergentes y capas superpuestas
+        9999 no hace falta usarlos casi nunca porque no deja margen a otro valor por encima */
 
      
 
