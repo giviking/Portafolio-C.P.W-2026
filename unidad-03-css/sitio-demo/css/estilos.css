@@ -346,6 +346,20 @@ main li {
     gap: 24px;
 
     grid-template-areas: 'indice principal' 'indice lateral';
+    /*CSS dibuja la estructura, cada cadena de texto es una fila.
+    cada palabra dentro es una celda
+    repetir un nombre hace que una zona abarque varias celdas.
+    aqui el indice ocupa dos filas de la primera columna*/
+    /*Asignar cada elemento a su area*/
+    #contenido > nav {grid-area: indice;}
+    #contenido > article {grid-area: principal;}
+    #contenido > aside {grid-area: lateral;}
+    grid-template-areas: 'indice principal';
+}
+
+/*Que las imagenes no se deformen*/
+.galeria-grid img {
+
 }
 
 
