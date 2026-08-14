@@ -313,6 +313,11 @@ main li {
         1000 ventanas emergentes y capas superpuestas
         9999 no hace falta usarlos casi nunca porque no deja margen a otro valor por encima */
 
+.galeria-grid {
+    display: grid; /*Activa grid al igual que flexbos, se declara en el contenedor*/
+    /*grid */
+}
+
      
 
 
