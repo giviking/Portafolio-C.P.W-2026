@@ -436,3 +436,35 @@ form input[type="checkbox"] + label {   /*y display: inline los coloca uno */
     font-weight: 400;
 }
 
+form input:focus,     /*Esto es una Pseudo Clase*/
+form select:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #1f4e79;
+    box-shadow: 0 0 0 3px rgba(31, 78, 121, 0.15);
+}   /* El halo azul alrededor del campo activo 
+       El Focus no es solo decoración, es una 
+       guía para el usuario */
+
+/*Los estados de validación*/
+form input:invalid:not(:placeholder-shown) {
+   border-color: #c0392b; 
+}
+
+form input:valid:not(:placeholder-shown) {
+   border-color: #2e7d32; 
+}  /* Apoya la validacion HTML en los required, type, pattern, minlength, etc
+     colocando un halo de color según si el dato es correcto o no*/
+
+/*Para lo mensajes de ayuda*/
+form small {
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+    color: #6b7280;
+}   /*Los <small> que acompañan a los campos con los textos "mínimo 8 caracteres.
+      Entre 1 y 8 sesiones, etc"*/
+
+
+
