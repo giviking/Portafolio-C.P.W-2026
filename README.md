@@ -129,7 +129,7 @@ _Portada del sitio personal al cerrar la Unidad 2._
 |  S15   | Display y posicionamiento  | Display y posicionamiento y barra de navegacion fija                     |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |   [ver](recursos/s15Display.png)   |
 |  S16   | Flexbox                    |                                                                          |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |    [ver](recursos/s17grid.png)     |
 |  S17   | CSS Grid                   | Trabajamos Grid template                                                 |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |    [ver](recursos/s17grid.png)     |
-|  S18   | Componentes estilizados    |                                                                          |                [ver](unidad-03-css/)                |          [ver](recursos/)          |
+|  S18   | Componentes estilizados    | Agrego tarjetas con interactivad y estilizamos formularios y tablas      |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |  [ver](recursos/s18tarjetas.png)   |
 |  S19   | Animaciones y filtros      |                                                                          |                [ver](unidad-03-css/)                |          [ver](recursos/)          |
 |  S20   | SCSS y repaso              |                                                                          |                [ver](unidad-03-css/)                |          [ver](recursos/)          |
 
