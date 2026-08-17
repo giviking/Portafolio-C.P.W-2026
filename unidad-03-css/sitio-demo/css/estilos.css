@@ -170,9 +170,15 @@ nav a:hover {
 }
 
 /*Pseudo-clase :nth-child: filas cebra en la tabla*/
-tbody tr:nth-child(even) {
-    background-color: #e0d8d8;
+tbody tr :nth-child(even) {
+    background-color: #d7c5c5;  /*Efecto Zebra*/
 }
+
+tbody tr:hover {
+    background-color: #e3eef9;
+} /*La novedad es resaltar la fila de bajo el cursor
+    no es decoración, es ayuda para no perderse en la fila*/
+
 /*Pseudo-elemento ::first-lettery ::selection*/
 article p::first-letter {
     font-size: 32px;
@@ -207,26 +213,19 @@ padding-right 10px aplica derecha
 padding-bottom 10px aplica abajo
 padding-left 10px aplica izquierda*/
 
-/*Aplica a la tabla horario.html*/
-th, td {
-    padding: 10px;
-    border: 1px solid #dddddd;
-    text-align: left;
-}
 
-thead th {
-    background-color: #1f4e79;   /* Trabaja encabezadps de la tabla*/
-    color: white;
-}
-
-tfoot td {
-    padding: 12px;
-    font-style: italic;
-    background-color: #f5f7fa;
-}
 
 fieldset {
     padding: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+legend {
+    padding: 0 8px;
+    font-weight: 700;
+    color: #1f4e79;
 }
 
 section {
@@ -266,13 +265,40 @@ main li {
     padding: 8px;
     font-weight: 700;
     margin-bottom: 24px;
+    text-align: left;
+    color: #6b7280;
    }
 
+   /*Aplica a la tabla horario.html*/
+th, td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+thead th {
+    background-color: #1f4e79;   /* Trabaja encabezadps de la tabla*/
+    color: white;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+tfoot td {
+    padding: 12px;
+    font-style: italic;
+    background-color: #f5f7fa;
+    border-top: 2px solid #1f4e79;
+    border-bottom: 15px solid #1f7940; /*Esto lo agregue yo para practicar*/
+}
+
    figure {
-        border: 1px solid #dddddd;
-        border-radius: 6px;
-        padding: 12px;
-     }
+    background: white;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 0 2px 8px rgba(151, 49, 49, 0.08);
+}
 
    /*Los 5 valores de position
      static: valor por omision
@@ -340,22 +366,23 @@ main li {
     grid-row: span 2;  /*abarca dos filas*/
 }
 
+/*
 #contenido {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 3fr 3fr;
     gap: 24px;
-
+/*
     grid-template-areas: 'indice principal' 'indice lateral';
     /*CSS dibuja la estructura, cada cadena de texto es una fila.
     cada palabra dentro es una celda
     repetir un nombre hace que una zona abarque varias celdas.
     aqui el indice ocupa dos filas de la primera columna*/
-    /*Asignar cada elemento a su area*/
+    /*Asignar cada elemento a su area
     #contenido > nav {grid-area: indice;}
     #contenido > article {grid-area: principal;}
     #contenido > aside {grid-area: lateral;}
     grid-template-areas: 'indice principal';
-}
+}*/
 
 /*Que las imagenes no se deformen*/
 .galeria-grid img {
@@ -371,5 +398,132 @@ main li {
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
 }
+
+form label {            /*Display block: pone la etiqueta sobre el campo*/
+    display: block;     /*funciona mejor en pantallas angostas*/
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-family: inherit;  /*Los campos del formulario NO heredan la fuente del
+                             body por omisión, sin esta línea el formulario
+                             aparecería con la fuente del sistema*/
+}
+
+/*Casillas por separado*/
+form input[type="radio"],
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+    margin-bottom: 0;
+}
+
+form input[type="radio"] + label,       /*El selector + alcanza la etiqueta*/
+form input[type="checkbox"] + label {   /*y display: inline los coloca uno */
+    display: inline;                    /* al lado del otro                */
+    font-weight: 400;
+}
+
+form input:focus,     /*Esto es una Pseudo Clase*/
+form select:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #1f4e79;
+    box-shadow: 0 0 0 3px rgba(31, 78, 121, 0.15);
+}   /* El halo azul alrededor del campo activo 
+       El Focus no es solo decoración, es una 
+       guía para el usuario */
+
+/*Los estados de validación*/
+form input:invalid:not(:placeholder-shown) {
+   border-color: #c0392b; 
+}
+
+form input:valid:not(:placeholder-shown) {
+   border-color: #2e7d32; 
+}  /* Apoya la validacion HTML en los required, type, pattern, minlength, etc
+     colocando un halo de color según si el dato es correcto o no*/
+
+/*Para lo mensajes de ayuda*/
+form small {
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+    color: #6b7280;
+}   /*Los <small> que acompañan a los campos con los textos "mínimo 8 caracteres.
+      Entre 1 y 8 sesiones, etc"*/
+
+/*Estilizar el botón con estados*/
+.boton, .boton-secundario {
+    background-color: #c55a11;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    /*cursor: pointer; */
+    cursor: url("recursos/cat.png"), pointer;
+}
+
+/*Los tres estados: 1 hover: mas oscuro al pasar el cursor*/
+.boton:hover {
+    background-color: #2e7d32;
+}
+
+/*Estado: 2 active: Aún más oscuro Mientras se pulsa*/
+.boton:active {
+    background-color: #8a3b0b;
+}
+
+/*Estado: 3 focus: tambien cuando se llega por TAB*/
+.boton:focus {
+    outline: 2px solid #f5c518;
+    outline-offset: 2px;
+}
+
+/*Variante secundaria*/
+.boton-secundario {
+    background-color: #6b7280;
+}
+.boton-secundario:hover {
+    background-color: #4b5563;
+}
+
+/*Tarjetas con sombra*/
+.tarjeta {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0px 1px 3px rgba(0, 0, 0, 0, .15 ); */
+}   /*0: desplazamiento horizontal. 
+      4px: desplazamiento vertical.
+      12px: es el desenfoque, cuanto mayor, más difusa.
+      rgba: color con transparencia*/
+
+/*Tarjeta interactiva*/
+.tarjeta figure:hover {
+    transform: translateY(-10px); /*Valor negativo va hacia arriba*/
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0, 0.15);
+}
+
+
 
 
