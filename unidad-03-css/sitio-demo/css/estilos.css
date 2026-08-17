@@ -217,6 +217,15 @@ padding-left 10px aplica izquierda*/
 
 fieldset {
     padding: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+legend {
+    padding: 0 8px;
+    font-weight: 700;
+    color: #1f4e79;
 }
 
 section {
@@ -355,22 +364,23 @@ tfoot td {
     grid-row: span 2;  /*abarca dos filas*/
 }
 
+/*
 #contenido {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 3fr 3fr;
     gap: 24px;
-
+/*
     grid-template-areas: 'indice principal' 'indice lateral';
     /*CSS dibuja la estructura, cada cadena de texto es una fila.
     cada palabra dentro es una celda
     repetir un nombre hace que una zona abarque varias celdas.
     aqui el indice ocupa dos filas de la primera columna*/
-    /*Asignar cada elemento a su area*/
+    /*Asignar cada elemento a su area
     #contenido > nav {grid-area: indice;}
     #contenido > article {grid-area: principal;}
     #contenido > aside {grid-area: lateral;}
     grid-template-areas: 'indice principal';
-}
+}*/
 
 /*Que las imagenes no se deformen*/
 .galeria-grid img {
@@ -387,4 +397,42 @@ tfoot td {
     gap: 50px;
 }
 
+form label {            /*Display block: pone la etiqueta sobre el campo*/
+    display: block;     /*funciona mejor en pantallas angostas*/
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-family: inherit;  /*Los campos del formulario NO heredan la fuente del
+                             body por omisión, sin esta línea el formulario
+                             aparecería con la fuente del sistema*/
+}
+
+/*Casillas por separado*/
+form input[type="radio"],
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+    margin-bottom: 0;
+}
+
+form input[type="radio"] + label,       /*El selector + alcanza la etiqueta*/
+form input[type="checkbox"] + label {   /*y display: inline los coloca uno */
+    display: inline;                    /* al lado del otro                */
+    font-weight: 400;
+}
 
