@@ -466,5 +466,43 @@ form small {
 }   /*Los <small> que acompañan a los campos con los textos "mínimo 8 caracteres.
       Entre 1 y 8 sesiones, etc"*/
 
+/*Estilizar el botón con estados*/
+.boton, .boton-secundario {
+    background-color: #c55a11;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*Los tres estados: 1 hover: mas oscuro al pasar el cursor*/
+.boton:hover {
+    background-color: #2e7d32;
+}
+
+/*Estado: 2 active: Aún más oscuro Mientras se pulsa*/
+.boton:active {
+    background-color: #8a3b0b;
+}
+
+/*Estado: 3 focus: tambien cuando se llega por TAB*/
+.boton:focus {
+    outline: 2px solid #f5c518;
+    outline-offset: 2px;
+}
+
+/*Variante secundaria*/
+.boton-secundario {
+    background-color: #6b7280;
+}
+.boton-secundario:hover {
+    background-color: #4b5563;
+}
+
+
 
 
