@@ -293,10 +293,12 @@ tfoot td {
 }
 
    figure {
-        border: 1px solid #dddddd;
-        border-radius: 6px;
-        padding: 12px;
-     }
+    background: white;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 0 2px 8px rgba(151, 49, 49, 0.08);
+}
 
    /*Los 5 valores de position
      static: valor por omision
@@ -476,7 +478,8 @@ form small {
     font-family: inherit;
     font-size: 16px;
     font-weight: 600;
-    cursor: pointer;
+    /*cursor: pointer; */
+    cursor: url("recursos/cat.png"), pointer;
 }
 
 /*Los tres estados: 1 hover: mas oscuro al pasar el cursor*/
@@ -502,6 +505,18 @@ form small {
 .boton-secundario:hover {
     background-color: #4b5563;
 }
+
+/*Tarjetas con sombra*/
+.tarjeta {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0px 1px 3px rgba(0, 0, 0, 0, .15 ); */
+}   /*0: desplazamiento horizontal. 
+      4px: desplazamiento vertical.
+      12px: es el desenfoque, cuanto mayor, más difusa.
+      rgba: color con transparencia*/
 
 
 
