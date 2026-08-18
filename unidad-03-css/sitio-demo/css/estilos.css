@@ -117,7 +117,11 @@ header nav a {
     text-decoration: none;
     padding: 10px 15px;
     margin-top: 15px;
+    color: #fff;
+    margin-right: 15px;
+    transition: color 0.3s;  /*cambio suave al pasar el mouse*/
 }
+
 
 header nav ul {
     list-style-type: none;  /*Quita las viñetas y el subrayado*/
@@ -158,12 +162,7 @@ header nav li {
 }
 */
 
-/* estilos solo a enlaces dentro del nav */
-nav a {
-    color: #fff;
-    margin-right: 15px;
-    transition: color 0.3s;  /*cambio suave al pasar el mouse*/
-}
+
 /*Pseudo-clase :hover*/
 nav a:hover {
     color: #f8cbad; /*al pasar el cursor del mouse*/
@@ -508,6 +507,10 @@ form small {
 }
 .boton-secundario:hover {
     background-color: #4b5563;
+}
+
+.boton {
+    transition: background-color 0.3s ease;
 }
 
 /*Tarjetas con sombra*/
