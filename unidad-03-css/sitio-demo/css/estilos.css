@@ -525,5 +525,15 @@ form small {
 }
 
 
-
+/*Tarjetas Interactivas*/
+.tarjeta figure:hover {
+    transform: translateY(-10px);            /*Valor negativp hacia arriba*/
+    box-shadow: 0 8px rgba(0, 0, 0, 0.15);
+    transform: scale(1.03);          /*Escalar .1 = deel tamaño original*/
+    transform: scale(1.1, 0.9);                    /*X y Y por separado*/
+    transform: translateY(-5px);    /*Desplazar .negativo=Hacia arriba*/
+    transform: rotate(5deg);                         /*Girar . grados*/
+    transform: skew(10deg);                      /*Inclinar . grados*/
+    transform: translateY(-5px) scale(1.03);
+}
 
