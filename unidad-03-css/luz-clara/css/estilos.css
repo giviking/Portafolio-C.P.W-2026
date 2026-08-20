@@ -37,4 +37,17 @@
     --ancho-max: 120rem; /*1200px*/
   }
 
+  /*RESET Y BASE TIPOGRAFICA*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*la linea mas importante del reset: porque sin ella, si a una caja le damos un width: 300px y ade,as un padding: 20px y ademas un border: 2px, la caja en realidad mide: 300+20+20+2+2= 344px. con esta linea el relleno y el borde se descuentan hacia adentro */
+  }
+  /*LA BASE DEL TAMAÑO. La tecnica del 62.5%*/
+  html {
+    font-size: 62.5%; /*por omision el navegador usa 16px para el tamaño base. el 62.5 de es exactamente 10. Tiene que ver con accesibilidad y la parte responsive*/
+
+    scroll-behavior: smooth;  /*Saltos suaves al usar navegacion con anclas*/
+  }
+
 
