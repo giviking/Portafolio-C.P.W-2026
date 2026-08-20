@@ -58,4 +58,40 @@
     background-color: var(--color-fondo);
   }
 
+  /*JERARQUIA DE TITULOS*/
+  h1, h2, h3 {
+    font-family: var(--fuente-titulo);
+    line-height: 1.2;
+    color: var(--color-marca);
+  }
+  h1 {font-size: 4.8rem;}
+  h2 {font-size: 3.2rem;}
+  h3 {font-size: 2.0rem;}
 
+  p {
+    margin-bottom: var(--esp-sm);
+  }
+  a {
+    color: var(--color-acento);
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /*CONTENEDORES Y SECCIONES*/
+  .seccion {
+    max-width: var(--ancho-max);  /*Toma todo el ancho disponible*/
+    margin-left: auto;
+    margin-right: auto; /*Centra el bloque. Repartiendo el espacio sobrante por igual*/
+    padding: var(--esp-xl) var(--esp-md);
+    /*Dos valores: el primero afecta arriba y abajo y luego izquierda y derecha*/
+  }
+
+  .seccion-alterna {
+    background-color: var(--color-fondo-alt);
+    max-width: none; /*Se anula el ancho máximo para que el fondo ocupe todo el ancho de la pantalla*/
+  }
