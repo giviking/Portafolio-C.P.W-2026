@@ -137,5 +137,61 @@
     margin-bottom: var(--esp-xs);
   }
 
-  
+  /*CABECERA Y MENU*/
+  .cabecera {
+    display: flex;  /*Activa FLEXBOX*/
+    justify-content: space-between;  /*COLOCANDO EL PRIMER ELEMENTO AL INICIO U EL SEGUNDO AL FINAL*/
+    align-items: center;
+    padding: var(--esp-sm) var(--esp-md);
+    border-bottom: 0.1rem solid var(--color-linea);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: var(--esp-xs);
+    color: var(--color-marca);
+  }
+
+  .logo:hover .logo-icono {
+    transform: rotate(-8deg); /*Cuando el cursor este sobre el logo se vuelve -8 grados*/
+  }
+  .logo-texto {
+    font-family: var(--fuente-titulo);
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .menu {
+    display: flex;
+    gap: var(--esp-sm);
+    list-style: none;
+  }
+  .menu-enlace {
+    display: inline-block; /*esta linea permite aplicar relleno vertical*/
+    padding: var(--esp-xs) var(--esp-sm);
+    color: var(--color-tinta);
+    font-weight: 600;
+    border-radius: var(--radio);
+    transition: background-color var(--transicion), color var(--transicion);
+  }
+
+  .menu-enlace:hover {
+    background-color: var(--color-fondo-alt);
+    color: var(--color-marca);
+  }
+
+  .menu-enlace:focus {
+    outline: 0.2rem solid var(--color-acento);
+    outline-offset: 0.2rem; /*Se activa con la tecla tab al llegar al enlace. Permite navegar el sitio con el teclado*/
+  }
+
+  .menu-enlace.activo {   /*Dos clases del mismo elemento. Significa que el elemento que tenga las dos clases es la marca de la pagina actual o activa*/
+    color: var(--color-acento);
+  }
+
+
 
