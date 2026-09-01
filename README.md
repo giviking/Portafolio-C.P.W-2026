@@ -138,14 +138,14 @@ _Portada del sitio personal al cerrar la Unidad 2._
 <details markdown="1">
 <summary><b>Unidad 4 · Páginas web responsivas</b> (sesiones 23 a 28)</summary>
 
-| Sesión | Tema                            | Qué aprendí |      Trabajo      |     Captura      |
-| :----: | :------------------------------ | :---------- | :---------------: | :--------------: |
-|  S23   | Viewport y anchos fluidos       |             | [ver](unidad-04/) | [ver](recursos/) |
-|  S24   | Media queries y mobile-first    |             | [ver](unidad-04/) | [ver](recursos/) |
-|  S25   | Menú responsivo e impresión     |             | [ver](unidad-04/) | [ver](recursos/) |
-|  S26   | Imágenes y video adaptativos    |             | [ver](unidad-04/) | [ver](recursos/) |
-|  S27   | Patrones de diseño adaptativo I |             | [ver](unidad-04/) | [ver](recursos/) |
-|  S28   | Patrones II y repaso            |             | [ver](unidad-04/) | [ver](recursos/) |
+| Sesión | Tema                            | Qué aprendí                                                 |                     Trabajo                      |            Captura             |
+| :----: | :------------------------------ | :---------------------------------------------------------- | :----------------------------------------------: | :----------------------------: |
+|  S23   | Viewport y anchos fluidos       | Diferenciacion con la etiqueta viewport y puntos de quiebre | [ver](unidad-04-responsivo/luz-clara/index.html) | [ver](recursos/responsive.png) |
+|  S24   | Media queries y mobile-first    | Diferenciacion con la etiqueta viewport y puntos de quiebre | [ver](unidad-04-responsivo/luz-clara/index.html) | [ver](recursos/responsive.png) |
+|  S25   | Menú responsivo e impresión     |                                                             |                [ver](unidad-04/)                 |        [ver](recursos/)        |
+|  S26   | Imágenes y video adaptativos    |                                                             |                [ver](unidad-04/)                 |        [ver](recursos/)        |
+|  S27   | Patrones de diseño adaptativo I |                                                             |                [ver](unidad-04/)                 |        [ver](recursos/)        |
+|  S28   | Patrones II y repaso            |                                                             |                [ver](unidad-04/)                 |        [ver](recursos/)        |
 
 </details>
 
