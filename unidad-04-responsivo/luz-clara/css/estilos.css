@@ -199,7 +199,7 @@ h1, h2, h3 {
      las dos líneas quedan muy separadas.                              */
   color: var(--color-marca);
 }
-
+/*Tamanos mobiles*/
 h1 { font-size: 3.2rem; }   /* 32px */
 h2 { font-size: 2.4rem; }   /* 24px */
 h3 { font-size: 2.0rem; }   /* 20px */
@@ -1945,7 +1945,9 @@ img {
      3. Verificar el contraste en webaim.org/resources/contrastchecker
      4. Recorrer el sitio con la tecla Tab: debe verse siempre dónde
         está el foco */
-@media (max-width: 768px) {
+
+/*Modalidad movil first*/
+@media (min-width: 768px) {
   .cabecera {
     flex-direction: row;
     /*La cabacera pasa de fila a columna*/
