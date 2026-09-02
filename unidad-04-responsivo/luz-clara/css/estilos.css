@@ -1994,3 +1994,44 @@ Para luz Clara basta con estos dos
   Por eso el orden importa: de menor a mayor. 
   Si la regla de 1024 estuviera antes de la regla de 768, la ultima la anularia en pantallas grandes*/
 
+/*LA ESCALA COMPLETA, POR TRAMOS*/
+
+/*BASE - TELEFONO*/
+h1 {font-size: 3.2rem;}
+h2 {font-size: 2.4rem;}
+h3 {font-size: 1.8rem;}
+body {font-size: 1.6rem;}
+
+/*ESCALA TABLETS*/
+
+@media(min-width: 768px) {
+  h1 {font-size: 4.0rem;}
+  h2 {font-size: 2.8rem;}
+  h3 {font-size: 1.9rem;}  
+}
+
+/*ESCALA ESCRITORIO*/
+
+@media(min-width: 1024px) {
+  h1 {font-size: 4.8rem;}
+  h2 {font-size: 3.2rem;}
+  h3 {font-size: 2.0rem;}  
+}
+
+/*LA TABLA DE contacto.html*/
+.tabla-envoltorio { /*Despues de los 360px no hay forma razonable de que una tabla quepa sin perder la relacion enrte los datos*/
+  overflow-x: auto; /*Crea su propia barra de desplazamiento*/
+}
+
+@media (max-width: 768px) { /*Se usa max en lugar de min porque el media query ataca la parte mobil, el ajuste es solo para mobil*/
+  .tabla th,
+  .tabla td {
+    padding: var(--esp-xs);
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  main p {max-width: 65ch;}
+}
+/*En mobil no hace falta adapatar texto de los parrafos, la pantalla misma lo hace. La adaptacion es para de tablets hacia arriba por comodidad de lectura*/
