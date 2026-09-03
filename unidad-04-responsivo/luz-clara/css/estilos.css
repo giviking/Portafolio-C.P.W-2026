@@ -2072,3 +2072,22 @@ base              hasta 767px          telefono
 
   /*Estos encabezados NO son decorativos.
   Quien abra esta hoja de estilos o usted mismo dentro de 6 mesas sepa o ten una idea de lo que se hizo y de la estrategia que se uso*/
+
+  /*Media Querie para pantalla grande*/
+  @media (min-width: 768px) {
+    .cabecera {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .menu {
+      flex-direction: row;
+      gap: var(--esp-sm);
+      width: auto;
+    }
+    .menu-enlace {
+      display: inline-block;
+      padding: var(--esp-xs) var(--esp-sm);
+      border-bottom: none;
+    }
+  }
