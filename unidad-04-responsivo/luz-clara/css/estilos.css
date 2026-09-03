@@ -2138,3 +2138,13 @@ base              hasta 767px          telefono
       border-radius: var(--radio);
     }
   }
+
+  @media (min-width: 768px) {  /*Aqui si corresponde el display none porque el boton no debe existir en pantallas grandes*/
+    .menu-boton {
+      display: none;
+    }
+    .menu {
+      display: flex;
+      flex-direction: row;
+    }
+  }
