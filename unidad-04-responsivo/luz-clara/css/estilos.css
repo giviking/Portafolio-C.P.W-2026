@@ -2148,3 +2148,26 @@ base              hasta 767px          telefono
       flex-direction: row;
     }
   }
+
+  /*Usar orientacion
+  Aplicar reglas segun si el dispositivo esta en vertical u horizontal*/
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .portada {
+    min-height: 100vh;
+    padding: var(--esp-sm);
+  }
+  .portada-titulo { font-size: 2.4rem;}
+  .portada-bajada { font-size: 1.5rem;}
+} /*Aqui la importancia es la portada , ya que es parte de la visualizacion de la marca*/
+
+/*LAS CONSULTAS DISPONIBLES
+@media (min-width: 768px) ancho minimo 
+@media (min-width: 767px) ancho maximo
+@media (min-height: 600px) alto minimo
+@media (orientation: portrait) vertical
+@media (orientation: landscape) horizontal
+@media print impresion de la pagina
+@media (prefers-reduced-motion) preferencia de movimiento
+@media (prefers-color-scheme: dark) tema oscuro
+*/
