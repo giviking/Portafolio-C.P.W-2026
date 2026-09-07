@@ -2242,6 +2242,36 @@ base              hasta 767px          telefono
   }
   .cita-texto {font-size: 2.2rem;}
 }
+
+/*Mostly Fluid a .mosaico en galeria.html*/
+/*Ajustes para telefono*/
+@media (max-width: 600px) {
+  .mosaico {
+  grid-template-columns: 1fr;
+  /*Una sola columna de 360px, dos columnas de 180px las fotos deja de apreciarse*/
+  grid-auto-rows: 24rem;
+  }
+  .pieza-ancha,
+  .pieza-alta,
+  .pieza-grande {
+    grid-column: auto;
+    grid-row: auto;
+    /*Adaptar mosaico con piezas de distinto tamaño*/
+  }
+}
+
+/*Mostly Fluid a .mosaico en galeria.html*/
+/*Tope para pantalla grande*/
+@media (min-width: 1400px){
+  .mosaico {
+    max-width: 130rem;
+    margin-left: auto;
+    margin-right: auto;
+    /*Este patron no solo se encoge, tambien se detiene*/
+  }
+}
+
+
 /*LAS CONSULTAS DISPONIBLES
 @media (min-width: 768px) ancho minimo 
 @media (min-width: 767px) ancho maximo
