@@ -622,7 +622,6 @@ img {
   display: block;
 }
 
-
 /* 6 · SERVICIOS · FLEXBOX           tema de la S16
 
    FLEXBOX organiza elementos a lo largo de UN eje.
@@ -2268,6 +2267,20 @@ base              hasta 767px          telefono
     margin-left: auto;
     margin-right: auto;
     /*Este patron no solo se encoge, tambien se detiene*/
+  }
+}
+
+
+/*Patron Colum Drop en zonas de columnas-tarjetas de index.html*/
+@media (min-width: 620px) and (max-width: 900px) {
+  .tarjeta {
+    flex: 1 1 calc(50% - var(--esp-md));
+    /*Fuerza a dos por linea
+    calc(). permite mesclar unidades 50% del contenedor menos el hueco */
+  }
+  .tarjeta:last-child {
+    flex-basis: 100%;
+    /*La tercera tarjeta ocupa el ancho completo. Es una decision estética porque se ve mejor una tarjeta ancha que angosta y sola*/
   }
 }
 
