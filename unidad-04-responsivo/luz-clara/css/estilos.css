@@ -953,6 +953,18 @@ img {
   font-style: italic;
 }
 
+/*base . telefono. una columna. Layout Shifter*/
+#historia .dos-columnas {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: 'imagen'
+                       'texto';
+  gap: var(--esp-md);
+  /*en movil la imagen va arriba. Una foto capta la atencion y situa el contenido antes de leer*/
+}
+
+#historia .columna-imagen {grid-area: imagen;}
+#historia .columna-texto {grid-area: texto;}
 
 /* 10 · LISTAS Y GLOSARIO           tema de la S14 */
 
@@ -2284,6 +2296,22 @@ base              hasta 767px          telefono
   }
 }
 
+/*base . telefono. dos columna. Layout Shifter. Imagen a la derecha*/
+@media (min-width: 768px) {
+  #historia .dos-columnas {
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: 'texto imagen';
+  }
+}
+
+/*base . escritorio. Layout Shifter. Imagen a la izquierda*/
+@media (min-width: 1200px) {
+  #historia .dos-columnas {
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: 'imagen texto';
+    /*La imagen cambia de lado, sin encoger o bajar*/
+  }
+}
 
 /*LAS CONSULTAS DISPONIBLES
 @media (min-width: 768px) ancho minimo 
