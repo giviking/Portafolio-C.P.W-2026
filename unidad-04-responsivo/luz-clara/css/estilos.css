@@ -1053,13 +1053,17 @@ img {
   /* Este relative levanta el texto por encima de la comilla decorativa,
      para que no quede tapado por ella.                                */
 }
-
 .cita-autoria {
   color: var(--color-suave);
   font-size: 1.4rem;
   text-align: right;
 }
-
+/*Pequeños cambios para base telefono*/
+#testimonio p,
+.cita-texto {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
 
 /* 12 · TABLA           tema de la S18
 
@@ -2215,6 +2219,29 @@ base              hasta 767px          telefono
   }
 }
 
+
+
+
+/*Pequeños cambios para base tableta*/
+@media (min-width: 768px) {
+  #testimonio p {
+    font-size: 1.7rem;
+    max-width: 65ch;
+    /*El limite en la linea aparece despues de tableta*/
+  }
+  .cita {padding: var(--esp-lg);}
+  .cita-texto {font-size: 2.0rem;}
+}
+
+/*Pequeños cambios para base tableta*/
+@media (min-width: 1024px) {
+  #testimonio p {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    /*El limite en la linea aparece despues de escritorio*/
+  }
+  .cita-texto {font-size: 2.2rem;}
+}
 /*LAS CONSULTAS DISPONIBLES
 @media (min-width: 768px) ancho minimo 
 @media (min-width: 767px) ancho maximo
