@@ -153,9 +153,13 @@
 
         <!--  recursos/g-02.jpg · 600 × 900 px · ocupa 2 filas -->
         <figure class="pieza pieza-alta">
-          <img src="recursos/g-02.jpg" alt="Fotografía vertical de una botella de cerámica sobre madera"
+          <picture>
+            <source media="(min-width:768px)" srcset="recursos/g-02-grande.jpg">
+            <source media="(min-width:468px)" srcset="recursos/g-02-pequena.jpg">
+          <img src="recursos/g-02-pequena.jpg" alt="Fotografía vertical de una botella de cerámica sobre madera"
                width="600" height="900" loading="lazy">
           <figcaption class="pieza-info">
+            </picture>
             <span class="pieza-titulo">Cerámica de Guaitil</span>
             <span class="pieza-categoria">Producto</span>
           </figcaption>
