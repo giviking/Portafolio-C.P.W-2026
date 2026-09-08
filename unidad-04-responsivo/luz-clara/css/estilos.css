@@ -2419,7 +2419,7 @@ base              hasta 767px          telefono
   }
   #mosaico {
     display: grid;
-    grid-template-columns: 24rem 1fr;
+    grid-template-columns: 1fr; /*se elimino el 24rem*/
     gap: var(--esp-lg);
     align-items: center;
   }

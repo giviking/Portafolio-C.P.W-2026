@@ -138,9 +138,14 @@
 
         <!--  recursos/g-01.jpg · 1200 × 800 px · ocupa 2 columnas -->
         <figure class="pieza pieza-ancha">
-          <img src="recursos/g-01.jpg" alt="Retrato de una mujer junto a una ventana con luz lateral"
+          <picture>
+            <source media="(min-width:1024px)" srcset="recursos/g-01-grande.jpg">
+            <source media="(min-width:768px)" srcset="recursos/g-01-mediana.jpg">
+            <source media="(min-width:468px)" srcset="recursos/g-01-pequena.jpg">
+          <img src="recursos/g-01-pequena.jpg" alt="Retrato de una mujer junto a una ventana con luz lateral"
                width="1200" height="800" loading="lazy">
           <figcaption class="pieza-info">
+          </picture>
             <span class="pieza-titulo">Luz de ventana</span>
             <span class="pieza-categoria">Retrato</span>
           </figcaption>
