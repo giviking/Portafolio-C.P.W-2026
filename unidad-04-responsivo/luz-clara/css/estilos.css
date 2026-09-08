@@ -867,6 +867,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
+  width: 28rem; /*falto pero el profe lo quito despues*/
   height: 100vh;
   background-color: var(--color-blanco);
   box-shadow: var(--sombra-3);
@@ -898,6 +899,23 @@ img {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.45);
   z-index: -1; /*Oscurece el resto de la pagina mientras el panel esta abierto*/
+}
+
+/*LA CAPA OSCRUA*/
+.panel-fondo {
+  position: fixed;
+  inset: 0; /*Indica que top, bottom, rigght y left en 0. Cubre pantalla completa*/
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 150;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.panel-control:checked ~ .panel-fondo {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
 }
 
 /*El boton y el cierre*/
@@ -2379,6 +2397,31 @@ base              hasta 767px          telefono
     grid-template-columns: 2fr 3fr;
     grid-template-areas: 'imagen texto';
     /*La imagen cambia de lado, sin encoger o bajar*/
+  }
+}
+
+/*OFF Cancas solo para pantallas pequeñas*/
+@media (min-width: 1024px) {
+  .panel-boton,
+  .panel-cerrar {
+    display: none;
+  }
+  .panel-fondo {
+    display: none;
+  }
+  .panel-lateral {
+    position: static;
+    transform: none;
+    width: auto;
+    height: auto;
+    padding-left: 5rem;
+    z-index: auto;
+  }
+  #mosaico {
+    display: grid;
+    grid-template-columns: 24rem 1fr;
+    gap: var(--esp-lg);
+    align-items: center;
   }
 }
 
