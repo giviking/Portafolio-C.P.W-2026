@@ -120,18 +120,18 @@ _Portada del sitio personal al cerrar la Unidad 2._
 <details markdown="1">
 <summary><b>Unidad 3 · Codificación de hojas de estilo</b> (sesiones 11 a 20)</summary>
 
-| Sesión | Tema                       | Qué aprendí                                                              |                       Trabajo                       |              Captura               |
-| :----: | :------------------------- | :----------------------------------------------------------------------- | :-------------------------------------------------: | :--------------------------------: |
-|  S11   | Introducción a CSS         | Introduccion a CSS, sintaxis, estilo y validacion                        | [ver](unidad-03-css/sitio-personal/css/estilos.css) |   [ver](recursos/primercss.png)    |
-|  S12   | Selectores y pseudo-clases | Selectores, pseudo-clases, pseudo-elemento y introduccio a la tipografia |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   | [ver](recursos/S12.Selectores.png) |
-|  S13   | Tipografía y color         | Tipografia, fondos y colores                                             |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   | [ver](recursos/s13TipoYFondos.png) |
-|  S14   | Modelo de cajas            | Estilizar enlaces, listas y cajas                                        |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |   [ver](recursos/s14-cajas.png)    |
-|  S15   | Display y posicionamiento  | Display y posicionamiento y barra de navegacion fija                     |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |   [ver](recursos/s15Display.png)   |
-|  S16   | Flexbox                    |                                                                          |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |    [ver](recursos/s17grid.png)     |
-|  S17   | CSS Grid                   | Trabajamos Grid template                                                 |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |    [ver](recursos/s17grid.png)     |
-|  S18   | Componentes estilizados    | Agrego tarjetas con interactivad y estilizamos formularios y tablas      |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |  [ver](recursos/s18tarjetas.png)   |
-|  S19   | Animaciones y filtros      | Trabajamos animaciones, tansiciones transformaciones y filtros           |    [ver](unidad-03-css/sitio-demo/galeria.html)     | [ver](recursos/s19animaciones.png) |
-|  S20   | SCSS y repaso              |                                                                          |                [ver](unidad-03-css/)                |          [ver](recursos/)          |
+| Sesión | Tema                       | Qué aprendí                                                                 |                       Trabajo                       |              Captura               |
+| :----: | :------------------------- | :-------------------------------------------------------------------------- | :-------------------------------------------------: | :--------------------------------: |
+|  S11   | Introducción a CSS         | Introduccion a CSS, sintaxis, estilo y validacion                           | [ver](unidad-03-css/sitio-personal/css/estilos.css) |   [ver](recursos/primercss.png)    |
+|  S12   | Selectores y pseudo-clases | Selectores, pseudo-clases, pseudo-elemento y introduccio a la tipografia    |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   | [ver](recursos/S12.Selectores.png) |
+|  S13   | Tipografía y color         | Tipografia, fondos y colores                                                |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   | [ver](recursos/s13TipoYFondos.png) |
+|  S14   | Modelo de cajas            | Estilizar enlaces, listas y cajas                                           |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |   [ver](recursos/s14-cajas.png)    |
+|  S15   | Display y posicionamiento  | Display y posicionamiento y barra de navegacion fija                        |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |   [ver](recursos/s15Display.png)   |
+|  S16   | Flexbox                    | Trabajamos con propiedades de Flexbos para posicionar cajas y sus elementos |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |    [ver](recursos/s17grid.png)     |
+|  S17   | CSS Grid                   | Trabajamos Grid template                                                    |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |    [ver](recursos/s17grid.png)     |
+|  S18   | Componentes estilizados    | Agrego tarjetas con interactivad y estilizamos formularios y tablas         |   [ver](unidad-03-css/sitio-demo/css/estilos.css)   |  [ver](recursos/s18tarjetas.png)   |
+|  S19   | Animaciones y filtros      | Trabajamos animaciones, tansiciones transformaciones y filtros              |    [ver](unidad-03-css/sitio-demo/galeria.html)     | [ver](recursos/s19animaciones.png) |
+|  S20   | SCSS y repaso              |                                                                             |                [ver](unidad-03-css/)                |          [ver](recursos/)          |
 
 </details>
 
